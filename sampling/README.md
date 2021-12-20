@@ -16,7 +16,7 @@ The table in this directory provides numerical ids for each genotyped individual
 | Doume | Cameroon | 11 |
 | Mbakaou | Cameroon | 12 |
 | Bounou | Cameroon | 13 |
-| Bazzamma | Cameroon | 14 |
+| Bazzama | Cameroon | 14 |
 
 
 
