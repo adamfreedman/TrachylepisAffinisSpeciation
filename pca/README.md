@@ -27,4 +27,4 @@ Then, we use a table that maps individual ids to populations to append populatio
 ```bash
 python AppendPopToPCs.py ids_renumbered.txt taff_smartpca_10pcs_Rtable.txt
 ```
-Finally, we create the pca plot for PCs 1 and 2 in R using the script [pcaplotcode.R]](https://github.com/adamfreedman/TrachylepisAffinisSpeciation/tree/master/pca/pcaplotcode.R).
+Finally, we create the pca plot for PCs 1 and 2 in R using the script [pcaplotcode.R](https://github.com/adamfreedman/TrachylepisAffinisSpeciation/tree/master/pca/pcaplotcode.R).
