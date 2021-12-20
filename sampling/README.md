@@ -1,5 +1,5 @@
 # Geographic sampling
-The table in this directory provides numerical ids for each genotyped individual. Those numbers correspond to the following population names:
+The table in this directory provides numerical ids for each genotyped individual. These ids are used in our manuscript and correspond to the following population names:
 
 | Population name | Country | Numerical id |
 | :--------------- | :--------: | :------------: | 
