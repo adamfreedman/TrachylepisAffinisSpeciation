@@ -1,5 +1,7 @@
 #Principal components analysis (PCA)
-To visualize population structure among our 14 sampled populations of *Trachyleipis affinis*, we performed a PCA. To do so, we first converted our vcf file of genotypes to plink format using vcftools as follows:
+To visualize population structure among our 14 sampled populations of *Trachyleipis affinis*, we performed a PCA on the *T. affinis* genotypes. Results are presented in Supplementary Data Figure S3 of our manuscript.
+
+First, we converted our vcf file of genotypes to [plink](https://www.cog-genomics.org/plink2),version 1.90b3s, format using vcftools as follows:
 ```bash
 vcftools --vcf oneperrad_trachylepis_RAD.vcf --plink --out oneperrad_trachylepis_RAD
 ```
@@ -25,3 +27,4 @@ Then, we use a table that maps individual ids to populations to append populatio
 ```bash
 python AppendPopToPCs.py ids_renumbered.txt taff_smartpca_10pcs_Rtable.txt
 ```
+Finally, we create the pca plot for PCs 1 and 2 in R using the script [pcaplotcode.R]](https://github.com/adamfreedman/TrachylepisAffinisSpeciation/tree/master/pca).
