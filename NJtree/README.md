@@ -1,4 +1,4 @@
-# Identity-by-state
+# Neighbor-joining tree
 As a method for representing both population structure and individual-level differentiation, we generated a neighbor-joining tree from a matrix of genetic distances in the form of 1 minus identity-by-state (IBS). This matrix is calculated with plink as follows:
 ```bash
 plink --file oneperrad_trachylepis --distance square 1-ibs
