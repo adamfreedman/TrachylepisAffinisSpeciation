@@ -1,4 +1,4 @@
-#Principal components analysis (PCA)
+# Principal components analysis (PCA)
 To visualize population structure among our 14 sampled populations of *Trachyleipis affinis*, we performed a PCA on the *T. affinis* genotypes. Results are presented in Supplementary Data Figure S3 of our manuscript.
 
 First, we converted our vcf file of genotypes to [plink](https://www.cog-genomics.org/plink2),version 1.90b3s, format using vcftools as follows:
