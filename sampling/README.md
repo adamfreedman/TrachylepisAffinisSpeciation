@@ -2,7 +2,7 @@
 The table in this directory provides numerical ids for each genotyped individual. Those numbers correspond to the following population names:
 
 | Population name | Country | Numerical id |
-| ---------------  | -------- | ------------ | 
+| :--------------- | :--------: | :------------: | 
 | Lope National Park gallery forest | Gabon | 1 |
 | Lope National Park forest mosaic | Gabon | 2 |
 | Kribi | Cameroon | 3 |
